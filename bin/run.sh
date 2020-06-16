@@ -1,6 +1,6 @@
 #!/bin/bash
 
-namedir="/var/lib/hadoop-hdfs/cache/hdfs/dfs/name"
+namedir="/var/lib/hadoop-hdfs/cache/hdfs/dfs/name/current"
 if [ ! -d $namedir ]; then
   echo "Namenode name directory not found: $namedir"
   exit 2
