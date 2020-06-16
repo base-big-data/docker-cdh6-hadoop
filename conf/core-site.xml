@@ -1,0 +1,18 @@
+<configuration>
+	<property>
+		<name>fs.defaultFS</name>
+		<value>hdfs://0.0.0.0:8020</value>
+	</property>
+	<property>
+		<name>hadoop.proxyuser.hue.hosts</name>
+		<value>*</value>
+	</property>
+	<property>
+		<name>hadoop.proxyuser.hue.groups</name>
+		<value>*</value>
+	</property>
+  <property>
+		<name>io.compression.codecs</name>
+		<value>org.apache.hadoop.io.compress.SnappyCodec</value>
+	</property>
+</configuration>
