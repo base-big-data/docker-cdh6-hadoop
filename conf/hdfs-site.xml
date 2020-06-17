@@ -3,6 +3,10 @@
      <name>dfs.namenode.name.dir</name>
      <value>file:///var/lib/hadoop-hdfs/cache/hdfs/dfs/name</value>
   </property>
+  <property>
+	  <name>dfs.datanode.data.dir</name>
+	  <value>file:///var/lib/hadoop-hdfs/cache/hdfs/dfs/data</value>
+  </property>
   <!-- CLOUDERA-BUILD: CDH-64745. -->
   <property>
     <name>cloudera.erasure_coding.enabled</name>
